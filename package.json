@@ -1,31 +1,53 @@
 {
   "name": "predict-touch-accuracy-ext",
-  "displayName": "Predict touch accuracy ext",
+  "displayName": "TappTapp",
   "version": "0.0.1",
-  "description": "This extension analyzes the size of buttons, links, etc. on a smartphone web screen and displays the success rate of taps. (Inspired by Yahoo Japan's Tappy.)",
+  "description": "__MSG_extensionDescription__",
   "author": "Kenta Kobayashi (ken0421wabu@gmail.com)",
+  "type": "module",
   "scripts": {
     "dev": "plasmo dev",
     "build": "plasmo build",
-    "package": "plasmo package"
+    "package": "plasmo package",
+    "lint": "pnpm run \"/^lint:.*/\"",
+    "lint:ts": "tsc --noEmit",
+    "lint:es": "eslint src --max-warnings=0",
+    "lint:markup": "markuplint \"src/**/*.tsx\"",
+    "format": "prettier --write src/**/*.{ts,tsx}"
   },
   "dependencies": {
+    "@plasmohq/messaging": "^0.6.2",
     "plasmo": "0.84.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@eslint/js": "^8.56.0",
     "@ianvs/prettier-plugin-sort-imports": "4.1.1",
     "@types/chrome": "0.0.258",
     "@types/node": "20.11.5",
     "@types/react": "18.2.48",
     "@types/react-dom": "18.2.18",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "globals": "^14.0.0",
     "prettier": "3.2.4",
     "typescript": "5.3.3"
   },
   "manifest": {
     "host_permissions": [
       "https://*/*"
-    ]
+    ],
+    "permissions": [
+      "debugger"
+    ],
+    "default_locale": "ja"
+  },
+  "volta": {
+    "node": "20.11.0",
+    "pnpm": "8.15.2"
   }
 }

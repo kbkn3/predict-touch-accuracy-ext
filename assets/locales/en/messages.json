@@ -1,0 +1,6 @@
+{
+  "extensionDescription": {
+    "message": "This extension analyzes the size of buttons, links, etc. on a smartphone web screen and displays the success rate of taps.",
+    "description": "Description of the extension."
+  }
+}
