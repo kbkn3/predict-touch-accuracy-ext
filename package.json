@@ -38,11 +38,9 @@
     "typescript": "5.3.3"
   },
   "manifest": {
-    "host_permissions": [
-      "https://*/*"
-    ],
     "permissions": [
-      "debugger"
+      "debugger",
+      "activeTab"
     ],
     "default_locale": "ja"
   },
