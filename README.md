@@ -1,4 +1,4 @@
-# Tapp Tapp
+# Tapp Tapp Analyzer
 
 この拡張機能は、スマートフォンのウェブ画面上のボタンやリンクなどのサイズを分析し、タップの成功率を表示します。
 Yahoo Japan Labが開発した[Tappy](https://tappy.yahoo.co.jp/)にインスパイアされ、Chrome拡張機能化したものです。
