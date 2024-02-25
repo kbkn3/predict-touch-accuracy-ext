@@ -1,7 +1,7 @@
 {
   "name": "predict-touch-accuracy-ext",
-  "displayName": "TappTapp",
-  "version": "0.0.1",
+  "displayName": "Tap Analyzer",
+  "version": "0.0.2",
   "description": "__MSG_extensionDescription__",
   "author": "Kenta Kobayashi (ken0421wabu@gmail.com)",
   "type": "module",

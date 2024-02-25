@@ -206,7 +206,7 @@ function IndexPopup() {
           style={{
             marginBottom: 8
           }}>
-          Tapp Tapp Analyzer
+          Tap Analyzer
         </h1>
         <p
           style={{
