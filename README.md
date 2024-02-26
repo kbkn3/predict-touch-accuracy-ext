@@ -8,6 +8,10 @@ Inspired by [Tappy](https://tappy.yahoo.co.jp/) developed by Yahoo Japan Lab, it
 
 ![screenshot](./img/screenshot.jpg)
 
+## How to use
+
+Install [link](https://chromewebstore.google.com/detail/tap-analyzer/omacmfialjnoognohplbhhbgpeillekn)
+
 ## Getting Started
 
 First, run the development server:
